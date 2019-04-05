@@ -29,8 +29,9 @@ async function fetchMovie (item) {
 
     try {
       movieData = JSON.parse(movieData)
-      console.log(movieData.tags)
-      console.log(movieData.summary)
+      console.log(movieData)
+    //   console.log(movieData.tags)
+    //   console.log(movieData.summary)
     } catch (err) {
       console.log(err)
     }

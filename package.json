@@ -29,7 +29,10 @@
     "pug": "^2.0.3",
     "puppeteer": "^1.14.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "request-promise-native": "^1.0.7"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

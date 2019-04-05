@@ -53,9 +53,11 @@ https://blog.csdn.net/weixin_43254265/article/details/84565650
 6-2 利用 puppeteer 爬取和分析电影列表  20min
 puppeteer 
 https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md
+中文文档
+https://zhaoqize.github.io/puppeteer-api-zh_CN/#?product=Puppeteer&version=v1.14.0&show=api-class-puppeteer
 
 
-6-3 child_process fork 子进程来运行爬虫脚本 14min
+6-3 child_process fork 子进程来运行爬虫脚本 10min
     子进程模型  启用方法
     9个问题
         什么是同步异步
@@ -68,5 +70,43 @@ https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md
         怎样来启动子进程
         进程间如何通信
 
-    npm包  request-promise-native
-    https://www.npmjs.com/package/request-promise-native
+    
+
+6-4 服务器端通过 request 向豆瓣 api 请求详细数据  10min
+npm包  request-promise-native
+https://www.npmjs.com/package/request-promise-native
+讲述了如何访问豆瓣api
+
+
+6-5 scott 与妹子合租引发的同步异步与阻塞
+
+JavaScript 运行机制详解：再谈Event Loop
+http://www.ruanyifeng.com/blog/2014/10/event-loop.html
+
+
+Node.js 事件循环，定时器和 
+https://nodejs.org/zh-cn/docs/guides/event-loop-timers-and-nexttick/
+
+ypescript 学习纲要（2）：拖拽实践
+https://www.jianshu.com/p/0c1803a8d857
+
+
+前端基础进阶（八）：深入详解函数的柯里化
+https://www.jianshu.com/p/5e1899fe7d6b
+
+nodejs工作原理
+https://blog.csdn.net/u010081689/article/details/45670937
+
+
+6-6 puppeteer 深度爬取封面图和视频地址  11min
+
+
+6-7 上传线上封面图和视频搬砖到七牛云图床上  17min
+    CDN  是什么？
+    静态资源托管，为什么要托管？
+
+7-1 从异步非阻塞的代码案例切入事件循环  4min
+    没有什么实质性的知识
+
+
+7-2 从异步非阻塞的代码案例切入事件循环  12min
